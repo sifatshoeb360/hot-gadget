@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Gadget</title>
+    <!-- font awesome file css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- bootstrap cdn link css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- maincss css file  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap java script file -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- nav section start  -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-xxl mx-auto">
+                <a class="navbar-brand logo" href="#"><img src="./images/logo.png" alt=""></a>
+                <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars d-block toggler"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categories">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#laptop">Loptop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#phone">phone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link mybtn text-white fw-bolder" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- nav section end -->
+    <!-- hero section start -->
+    <section id="hero" class="pt-5">
+        <div class="container-xxl mx-auto py-5">
+            <!-- carosel start -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        class="bg-danger" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        class="bg-danger" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <!-- carousel item start -->
+                    <div class="carousel-item active py-5 mb-5">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-md-6">
+                                <img src="./images/banner-products/product-1.png" alt="">
+                            </div>
+                            <div class="col-md-6 order-md-first">
+                                <div class="hero-text-box">
+                                    <h1>Mackbook Pro</h1>
+                                    <p class="text-muted mb-5">Contrary to popular belief, Lorem Ipsum is not simply
+                                        random text. It has roots in a piece of classical Latin literature.
+                                    </p>
+                                    <a href="#" class="btn mybtn my-5">Buy Now <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel item start -->
+                    <!-- carousel item start -->
+                    <div class="carousel-item  py-5 mb-5">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-md-6">
+                                <img src="./images/banner-products/slider-1.png" alt="">
+                            </div>
+                            <div class="col-md-6 order-md-first">
+                                <div class="hero-text-box">
+                                    <h1>Room-filling Audio Package</h1>
+                                    <p class="text-muted mb-5">Contrary to popular belief, Lorem Ipsum is not simply
+                                        random text. It has roots in a piece of classical Latin literature.
+                                    </p>
+                                    <a href="#" class="btn mybtn my-5">Buy Now <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel item start -->
+                    <!-- carousel item start -->
+                    <div class="carousel-item  py-5 mb-5">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-md-6">
+                                <img src="./images/banner-products/slider-3.png" alt="">
+                            </div>
+                            <div class="col-md-6 order-md-first">
+                                <div class="hero-text-box">
+                                    <h1>Outdoor Monitoring Package</h1>
+                                    <p class="text-muted mb-5">Contrary to popular belief, Lorem Ipsum is not simply
+                                        random text. It has roots in a piece of classical Latin literature.
+                                    </p>
+                                    <a href="#" class="btn mybtn my-5">Buy Now <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- carosel end-->
+        </div>
+    </section>
+    <!-- hero section end -->
+    <!-- product sectin start  -->
+    <section id="product">
+        <div class="container-xxl mx-auto py-5 row">
+            <!-- phone section  start-->
+            <div id="phone" class="row m-0 p-0 phone">
+                <div class="col-6 py-5">
+                    <h3>Smartphone</h3>
+                </div>
+                <div class="col-6 py-5">
+                    <h3 class="text-warning text-end">See all</h3>
+                </div>
+                <!-- product box  -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-box p-5  rounded shadow-lg text-center">
+                        <img src="./images/phone/phone-1.png" alt="">
+                        <h4 class="mt-5">Redmi Note 9pro</h4>
+                        <p class="text-muted">Some quick example text to build on
+                            the card title.</p>
+                        <h4>$999</h4>
+                        <a href="#" class="btn mybtn">Buy Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- product box  -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-box p-5  rounded shadow-lg text-center">
+                        <img src="./images/phone/phone-2.png" alt="">
+                        <h4 class="mt-5">iPhone 11 Pro</h4>
+                        <p class="text-muted">Some quick example text to build on
+                            the card title.</p>
+                        <h4>$1999</h4>
+                        <a href="#" class="btn mybtn">Buy Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- product box  -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-box p-5  rounded shadow-lg text-center">
+                        <img src="./images/phone/phone-3.png" alt="">
+                        <h4 class="mt-5">Samsung Galaxy Note10+</h4>
+                        <p class="text-muted">Some quick example text to build on
+                            the card title.</p>
+                        <h4>$1299</h4>
+                        <a href="#" class="btn mybtn">Buy Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- phone section end -->
+            <!-- laptop section start -->
+            <div id="laptop"  class="row laptop m-0 p-0">
+                <div class="col-6 py-5">
+                    <h3>Laptop</h3>
+                </div>
+                <div class="col-6 py-5">
+                    <h3 class="text-warning text-end">See all</h3>
+                </div>
+                <!-- product box  -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-box p-5  rounded shadow-lg text-center">
+                        <img src="./images/laptop/product-1.png" alt="">
+                        <h4 class="mt-5">Asus VivoBook </h4>
+                        <p class="text-muted">Some quick example text to build on
+                            the card title.</p>
+                        <h4>$1200</h4>
+                        <a href="#" class="btn mybtn">Buy Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- product box  -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-box p-5  rounded shadow-lg text-center">
+                        <img src="./images/laptop/product-2.png" alt="">
+                        <h4 class="mt-5">Razer Blade 15 </h4>
+                        <p class="text-muted">Some quick example text to build on
+                            the card title.</p>
+                        <h4>$1799</h4>
+                        <a href="#" class="btn mybtn">Buy Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- product box  -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-box p-5  rounded shadow-lg text-center">
+                        <img src="./images/laptop/product-3.png" alt="">
+                        <h4 class="mt-5">Xiaomi Mi Notebook Pro</h4>
+                        <p class="text-muted">Some quick example text to build on
+                            the card title.</p>
+                        <h4>$999</h4>
+                        <a href="#" class="btn mybtn">Buy Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- laptop section end-->
+        </div>
+    </section>
+    <!-- product sectin end -->
+    <!-- Categories section start -->
+    <section id="categories">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-12 text-center my-5 py-5">
+                    <h2>Categories</h2>
+                    <div class="Categories_heading mx-auto my-4"></div>
+                </div>
+            </div>
+            <div class="row categories_content align-items-center justify-content-between">
+                <div class="col-md-6 row align-items-center">
+                    <div class="col-md-6">
+                        <div class="cat_img_box shadow-lg text-center p-5 mb-5">
+                            <img src="./images/Categories/bag.png" alt="">
+                            <h4>Bag</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cat_img_box shadow-lg text-center p-5 mb-4">
+                            <img src="./images/Categories/shoe.png" alt="">
+                            <h4>Shoes</h4>
+                        </div>
+                        <div class="cat_img_box shadow-lg text-center p-5 mt-md-3 mt-5">
+                            <img src="./images/Categories/perfume.png" alt="">
+                            <h4>Beauty </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/Categories/pale-order.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Categories section end -->
+    <section id="subscribe" class="py-5 my-5">
+        <div class="container-xxl mx-auto">
+            <div class="row">
+                <div class="col-xxl-7 col-md-8 col-12 text-center mx-auto">
+                    <h2 class="subscibe_heading my-5">Stay Touch With Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectet adipisicing elit. Ut mollitia quo sequi fugit ea molestiae!</p>
+                    <div class="inputbox d-flex shadow-lg mt-4">
+                        <input class="w-100" type="text" name="" id="">
+                        <input type="submit" value="Subscribe">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section start -->
+    <footer class="border-top bg-light py-5">
+        <div class="container-xxl row mx-auto">
+            <div class="col-12 text-center">
+                <p>©2022 All Right Reserved ||Shoeb Sifat</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

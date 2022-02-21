@@ -1,0 +1,87 @@
+/* google fon import  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+/* google fon import  */
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.toggler{
+    background: linear-gradient(to bottom, #ff9c35 0%, #ffd019 100%);
+}
+.toggler i{
+    color: #fff;
+}
+.mybtn{
+    border: none;
+    transition: 0.5s;
+    color: #fff;
+    background: linear-gradient(to bottom, #ff9c35 0%, #ffd019 100%);
+    border-radius: 10px;
+   
+}
+.mybtn:hover{
+    color: #fff;
+    background: linear-gradient(to bottom, #4289ff 0%, #07f8c3 100%);
+}
+img{
+    max-width: 100%;
+}
+
+section,header{
+    padding: 0 5%;
+}
+@media (max-width:968px){
+    section,header{
+        padding: 0 2%;
+    }
+    .navbar{
+        background: #f8f9fa;
+    }
+    .logo img{
+        width: 150px;
+        height: auto;
+    }
+}
+
+
+#hero{
+    background: url(../images/bg-1.png) no-repeat center,url(../images/bg-2.png) no-repeat bottom left;
+}
+/* product sectin / */
+/* product sectin / */
+.phone img{
+    width: 280px;
+    height: auto;
+}
+.laptop img{
+    width: 400px;
+    height: auto;
+}
+
+.Categories_heading{
+    height: 10px;
+    width: 112px;
+    border-radius: 20px;
+    left: 0%;
+    background: linear-gradient(90deg,#ff9c35,#ffd019);
+}
+
+.inputbox{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.inputbox input{
+    outline: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: none;
+    color: #ff9c35;
+}
+.inputbox input[type="submit"]{
+    color: #fff;
+    background: linear-gradient(90deg,#ff9c35,#ffd019);
+}
+.subscibe_heading{
+    color: #ff9c35;
+}
